@@ -302,7 +302,7 @@ fn format_messages(
 
     let templ = match template {
         Some(t) => t,
-        None => "{{bot_feed_name}}\n\n{{bot_item_name}}\n\n{{bot_item_description}}\n\n{{bot_date}}\n\n{{bot_item_link}}\n\n"
+        None => "/mirror@aria2gdrivebot {{bot_item_link}}"
             .to_string(),
     };
 
